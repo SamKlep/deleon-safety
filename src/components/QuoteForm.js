@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
+import { Button, Form } from 'react-bootstrap'
 
 export default class QuoteForm extends React.Component {
   constructor(props) {
@@ -13,17 +13,51 @@ export default class QuoteForm extends React.Component {
   render() {
     const { status } = this.state
     return (
-      <form
+      <Form
         onSubmit={this.submitForm}
         action='https://formspree.io/f/xpzokwzo'
         method='POST'>
-        <label>Email:</label>
-        <input type='email' name='email' />
-        <label>Message:</label>
-        <input type='text' name='message' />
-        {status === 'SUCCESS' ? <p>Thanks!</p> : <Button>Submit</Button>}
-        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-      </form>
+        <div className='form-group'>
+          <label>Date</label>
+          <input type='text' name='date' />
+          <label>Company Name</label>
+          <input type='text' name='companyName' />
+          <label>Address</label>
+          <input type='text' name='address1' />
+
+          <input type='text' name='address2' />
+          <label>City</label>
+          <input type='text' name='city' />
+          <label>State/Province</label>
+          <input type='text' name='state' />
+          <label>Zip/Postal Code</label>
+          <input type='text' name='zipcode' />
+          <label>Country</label>
+          <input type='text' name='country' />
+          <label>Name</label>
+          <input type='text' name='name' />
+          <label>Email</label>
+          <input type='text' name='email' />
+          <label>Requested Service</label>
+          <div class='form-check'>
+            <input className='form-check-input' type='radio' name='services' />
+            <label className='form-check-label'>Training</label>
+          </div>
+          <div class='form-check'>
+            <input className='form-check-input' type='radio' name='services' />
+            <label className='form-check-label'>Consulting</label>
+          </div>
+          <label>Comments/Questions</label>
+          <textarea
+            className='form-control'
+            rows='6'
+            type='text'
+            name='message'
+          />
+          {status === 'SUCCESS' ? <p>Thanks!</p> : <Button>Submit</Button>}
+          {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+        </div>
+      </Form>
     )
   }
 
