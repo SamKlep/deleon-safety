@@ -2,3 +2,11 @@
   width: 120px;
   height: 120px;
 }
+
+.jumbo-home {
+  background-image: url('https://cdn.pixabay.com/photo/2019/06/14/21/43/hard-hat-4274431_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
