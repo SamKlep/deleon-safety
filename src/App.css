@@ -1,6 +1,6 @@
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 .jumbo-home {
@@ -13,6 +13,46 @@
 
 .jumbo-about {
   background-image: url('https://cdn.pixabay.com/photo/2017/06/30/12/10/shipyard-2458150_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbo-train {
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/02/01/59/factory-1790258_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbo-consult {
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/07/18/27/businessman-2606502_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbo-construct {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/19/12/38/industry-1752876_1280.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbo-employers {
+  background-image: url('https://cdn.pixabay.com/photo/2015/03/26/10/02/people-690810_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbo-contact {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/19/12/38/industry-1752876_1280.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
