@@ -9,15 +9,17 @@ const HomeScreen = () => {
         <Container></Container>
       </Jumbotron>
       <Container>
-        <Row>
+        <Row className='m-3 text-center'>
           <Col>
             <h3>CONTACT MANAGING SAFETY SOLUTIONS & CONSTRUCTION</h3>
+            <br />
             <h3>FOR YOUR TRAINING AND CONSULTING NEEDS</h3>
           </Col>
         </Row>
         <Row>
-          <Col lg={6}>
+          <Col className='mt-3 mb-3' lg={6}>
             <Image
+              className='mt-3 mb-3'
               src='https://cdn.pixabay.com/photo/2016/02/09/17/27/classroom-1189988_1280.jpg'
               fluid
             />
@@ -28,22 +30,30 @@ const HomeScreen = () => {
               training weekly, monthly or as needed and we can bring all of our
               programs to your site for less downtime and convenience. We also
               provide a full complement of safety training for companies that
-              range from Basic Awareness classes to OSHA 10-Hour, OSHA 30-Hour,
-              HAZWOPER 40-Hour, and Competent Person classes.{' '}
+              range from <strong>Basic Awareness</strong> classes to{' '}
+              <strong>OSHA 10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour,</strong> and
+              <strong> Competent Person</strong> classes.{' '}
             </p>
             <p>
-              MSS is affiliated with MD4U Training Center, an accredited
-              training site for NCCER certifications. The training is available
-              to individuals needing Construction Site Safety Technician 100-Hr,
-              Crew Leadership, Project Supervision, Hazwoper 40-Hr and OSHA
-              30-Hr certifications.
+              MSS is affiliated with{' '}
+              <strong>
+                MD4U Training Center, an accredited training site for NCCER
+                certifications.
+              </strong>{' '}
+              The training is available to individuals needing{' '}
+              <strong>
+                Construction Site Safety Technician 100-Hr, Crew Leadership,
+                Project Supervision, Hazwoper 40-Hr and OSHA 30-Hr
+              </strong>{' '}
+              certifications.
             </p>
             <LinkContainer to='/training'>
               <Button variant='primary'>LEARN MORE</Button>
             </LinkContainer>
           </Col>
-          <Col>
+          <Col className='mt-3 mb-3'>
             <Image
+              className='mt-3 mb-3'
               src='https://cdn.pixabay.com/photo/2016/02/19/11/19/office-1209640_1280.jpg'
               fluid
             />
