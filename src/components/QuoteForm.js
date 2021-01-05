@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 export default class QuoteForm extends React.Component {
   constructor(props) {
@@ -13,40 +13,60 @@ export default class QuoteForm extends React.Component {
   render() {
     const { status } = this.state
     return (
-      <Form
+      <form
         onSubmit={this.submitForm}
         action='https://formspree.io/f/xpzokwzo'
         method='POST'>
         <div className='form-group'>
           <label>Date</label>
           <input type='text' name='date' />
+        </div>
+        <div className='form-group'>
           <label>Company Name</label>
           <input type='text' name='companyName' />
+        </div>
+        <div className='form-group'>
           <label>Address</label>
           <input type='text' name='address1' />
 
           <input type='text' name='address2' />
+        </div>
+        <div className='form-group'>
           <label>City</label>
           <input type='text' name='city' />
+        </div>
+        <div className='form-group'>
           <label>State/Province</label>
           <input type='text' name='state' />
+        </div>
+        <div className='form-group'>
           <label>Zip/Postal Code</label>
           <input type='text' name='zipcode' />
+        </div>
+        <div className='form-group'>
           <label>Country</label>
           <input type='text' name='country' />
+        </div>
+        <div className='form-group'>
           <label>Name</label>
           <input type='text' name='name' />
+        </div>
+        <div className='form-group'>
           <label>Email</label>
           <input type='text' name='email' />
+        </div>
+        <div className='form-group'>
           <label>Requested Service</label>
-          <div class='form-check'>
+          <div className='form-check'>
             <input className='form-check-input' type='radio' name='services' />
             <label className='form-check-label'>Training</label>
           </div>
-          <div class='form-check'>
+          <div className='form-check'>
             <input className='form-check-input' type='radio' name='services' />
             <label className='form-check-label'>Consulting</label>
           </div>
+        </div>
+        <div className='form-check'>
           <label>Comments/Questions</label>
           <textarea
             className='form-control'
@@ -54,10 +74,10 @@ export default class QuoteForm extends React.Component {
             type='text'
             name='message'
           />
-          {status === 'SUCCESS' ? <p>Thanks!</p> : <Button>Submit</Button>}
-          {status === 'ERROR' && <p>Ooops! There was an error.</p>}
         </div>
-      </Form>
+        {status === 'SUCCESS' ? <p>Thanks!</p> : <Button>Submit</Button>}
+        {status === 'ERROR' && <p>Ooops! There was an error.</p>}
+      </form>
     )
   }
 

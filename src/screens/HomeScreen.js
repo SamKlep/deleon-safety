@@ -1,5 +1,6 @@
 import React from 'react'
 import { Jumbotron, Container, Row, Col, Image, Button } from 'react-bootstrap'
+import { LinkContainer } from 'react-router-bootstrap'
 
 const HomeScreen = () => {
   return (
@@ -37,7 +38,9 @@ const HomeScreen = () => {
               Crew Leadership, Project Supervision, Hazwoper 40-Hr and OSHA
               30-Hr certifications.
             </p>
-            <Button variant='primary'>LEARN MORE</Button>
+            <LinkContainer to='/training'>
+              <Button variant='primary'>LEARN MORE</Button>
+            </LinkContainer>
           </Col>
           <Col>
             <Image
@@ -54,7 +57,9 @@ const HomeScreen = () => {
               and experienced safety professionals. Our safety consulting team
               can assist on a part time basis or full time capacity.
             </p>
-            <Button variant='primary'>LEARN MORE</Button>
+            <LinkContainer to='/consulting'>
+              <Button variant='primary'>LEARN MORE</Button>
+            </LinkContainer>
           </Col>
         </Row>
       </Container>

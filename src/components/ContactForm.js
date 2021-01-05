@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Form } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 
 export default class ContactForm extends React.Component {
   constructor(props) {
@@ -13,32 +13,50 @@ export default class ContactForm extends React.Component {
   render() {
     const { status } = this.state
     return (
-      <Form
+      <form
         onSubmit={this.submitForm}
         action='https://formspree.io/f/xknpkgnk'
         method='POST'>
-        <label>Name</label>
-        <input type='text' name='name' />
-        <label>Address</label>
-        <input type='text' name='address1' />
-        <input type='text' name='address2' />
-        <label>City</label>
-        <input type='text' name='address1' />
-        <label>State/Province</label>
-        <input type='text' name='address1' />
-        <label>Zip/Postal Code</label>
-        <input type='text' name='address1' />
-        <label>Country</label>
-        <input type='text' name='address1' />
-        <label>Phone</label>
-        <input type='text' name='address1' />
-        <label>Email</label>
-        <input type='text' name='address1' />
-        <label>Comments/Questions</label>
-        <input type='text' name='message' />
+        <div className='form-group'>
+          <label>Name</label>
+          <input type='text' name='name' />
+        </div>
+        <div className='form-group'>
+          <label>Address</label>
+          <input type='text' name='address1' />
+          <input type='text' name='address2' />
+        </div>
+        <div className='form-group'>
+          <label>City</label>
+          <input type='text' name='city' />
+        </div>
+        <div className='form-group'>
+          <label>State/Province</label>
+          <input type='text' name='state' />
+        </div>
+        <div className='form-group'>
+          <label>Zip/Postal Code</label>
+          <input type='text' name='zipcode' />
+        </div>
+        <div className='form-group'>
+          <label>Country</label>
+          <input type='text' name='country' />
+        </div>
+        <div className='form-group'>
+          <label>Phone</label>
+          <input type='text' name='phone' />
+        </div>
+        <div className='form-group'>
+          <label>Email </label>
+          <input type='email' name='email' />
+        </div>
+        <div className='form-group'>
+          <label>Comments/Questions</label>
+          <input type='text' name='message' />
+        </div>
         {status === 'SUCCESS' ? <p>Thanks!</p> : <Button>Submit</Button>}
         {status === 'ERROR' && <p>Ooops! There was an error.</p>}
-      </Form>
+      </form>
     )
   }
 
