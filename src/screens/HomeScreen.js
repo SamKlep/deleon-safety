@@ -43,9 +43,7 @@ const HomeScreen = () => {
               Crew Leadership, Project Supervision, Hazwoper 40-Hr and OSHA
               30-Hr certifications.
             </p>
-            <Button className='p-3' variant='dark'>
-              LEARN MORE
-            </Button>
+            <Button variant='primary'>LEARN MORE</Button>
           </Col>
           <Col>
             <Image
@@ -62,9 +60,7 @@ const HomeScreen = () => {
               and experienced safety professionals. Our safety consulting team
               can assist on a part time basis or full time capacity.
             </p>
-            <Button className='p-3' variant='dark'>
-              LEARN MORE
-            </Button>
+            <Button variant='primary'>LEARN MORE</Button>
           </Col>
         </Row>
       </Container>
