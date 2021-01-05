@@ -12,7 +12,7 @@ const ConstructionScreen = () => {
           <Col>
             <h3>CONSTRUCTION SERVICES</h3>
             <p className='lead'>
-              MSS Construction’s primary approach is to provide a seamless,
+              DSS's primary approach is to provide a seamless,
               integrated and optimistic service for capital project solutions.
               Our workforce is comprised of direct-hire, craft and professional
               staff to provide support to our clients in all areas of need.

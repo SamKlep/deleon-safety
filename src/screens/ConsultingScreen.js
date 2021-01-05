@@ -12,20 +12,20 @@ const ConsultingScreen = () => {
           <Col>
             <h3>CONSULTING SERVICES</h3>
             <p className='lead'>
-              Managing Safety Solutions is a premier provider of safety staff
-              and consulting services for the construction and general industry.
-              Our goals are to assist both small and large companies in reducing
+              DeLeon Safety Solutions is a premier provider of safety staff and
+              consulting services for the construction and general industry. Our
+              goals are to assist both small and large companies in reducing
               injuries, accidents and environmental impact, and ensuring
               compliance. We achieve this with a team of highly qualified and
               experienced safety professionals. Our safety contract and
               consulting teams can assist on a part-time basis or on a full-time
-              capacity. Regardless of the size of your operation, Managing
-              Safety Solutions can provide professional safety staff and
-              consulting services (including bi-lingual professionals) to your
-              company at a frequency that meets your needs and improves the
-              overall safety and risk management of your operations. Some
-              examples of the effective and flexible services we provide
-              include, but are not limited to the following:
+              capacity. Regardless of the size of your operation, DeLeon Safety
+              Solutions can provide professional safety staff and consulting
+              services (including bi-lingual professionals) to your company at a
+              frequency that meets your needs and improves the overall safety
+              and risk management of your operations. Some examples of the
+              effective and flexible services we provide include, but are not
+              limited to the following:
             </p>
           </Col>
         </Row>

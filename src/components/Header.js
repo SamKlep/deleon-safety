@@ -35,9 +35,6 @@ const Header = () => {
             <LinkContainer to='/employers'>
               <Nav.Link>Employers</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/contact'>
-              <Nav.Link>Contact</Nav.Link>
-            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

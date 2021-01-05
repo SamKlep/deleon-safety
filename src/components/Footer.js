@@ -4,7 +4,7 @@ import { Nav, Container, Navbar, Image } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='mt-5'>
       <Nav className='justify-content-center text-center'>
         <Container>
           <LinkContainer to='/'>
@@ -13,15 +13,16 @@ const Footer = () => {
             </Navbar.Brand>
           </LinkContainer>
         </Container>
-        <Container>
-          <Nav.Item>
-            <Nav.Link href='/home'>Active</Nav.Link>
+        <Container className='p-2 m-2'>
+          <Nav.Item className='p-2'>
+            Phone: <a href='tel:832-814-0645'>(832) 814 - 0645</a>
           </Nav.Item>
+
           <Nav.Item>
-            <Nav.Link eventKey='link-1'>Link</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link eventKey='link-2'>Link</Nav.Link>
+            Email:{' '}
+            <a href='mailto:deleonsafetysol@yahoo.com'>
+              deleonsafetysol@yahoo.com
+            </a>
           </Nav.Item>
         </Container>
       </Nav>

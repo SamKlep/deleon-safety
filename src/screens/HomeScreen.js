@@ -9,11 +9,15 @@ const HomeScreen = () => {
         <Container></Container>
       </Jumbotron>
       <Container>
-        <Row className='m-3 text-center'>
+        <Row className='m-5 text-center'>
           <Col>
-            <h3>CONTACT MANAGING SAFETY SOLUTIONS & CONSTRUCTION</h3>
+            <h2>
+              <em>CONTACT DELEON SAFETY SOLUTIONS</em>
+            </h2>
             <br />
-            <h3>FOR YOUR TRAINING AND CONSULTING NEEDS</h3>
+            <h2>
+              <em>FOR YOUR TRAINING AND CONSULTING NEEDS</em>
+            </h2>
           </Col>
         </Row>
         <Row>
@@ -25,27 +29,18 @@ const HomeScreen = () => {
             />
             <h3>TRAINING</h3>
             <p className='lead'>
-              Managing Safety Solutions provides comprehensive, flexible
-              solutions for all of your safety training needs. We can provide
-              training weekly, monthly or as needed and we can bring all of our
-              programs to your site for less downtime and convenience. We also
-              provide a full complement of safety training for companies that
-              range from <strong>Basic Awareness</strong> classes to{' '}
-              <strong>OSHA 10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour,</strong> and
-              <strong> Competent Person</strong> classes.{' '}
-            </p>
-            <p>
-              MSS is affiliated with{' '}
-              <strong>
-                MD4U Training Center, an accredited training site for NCCER
-                certifications.
+              DeLeon Safety Solutions provides comprehensive, flexible solutions
+              for all of your safety training needs. We offer bilingual services
+              and can provide training weekly, monthly or as needed. If need be,
+              we can bring all of our programs to your site for less downtime
+              and convenience. We also provide a full complement of safety
+              training for companies that range from{' '}
+              <strong className='bold'>Basic Awareness</strong> classes to{' '}
+              <strong className='bold'>
+                OSHA 10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour,
               </strong>{' '}
-              The training is available to individuals needing{' '}
-              <strong>
-                Construction Site Safety Technician 100-Hr, Crew Leadership,
-                Project Supervision, Hazwoper 40-Hr and OSHA 30-Hr
-              </strong>{' '}
-              certifications.
+              and
+              <strong className='bold'> CPR / First-Aid</strong>.{' '}
             </p>
             <LinkContainer to='/training'>
               <Button variant='primary'>LEARN MORE</Button>
@@ -59,13 +54,18 @@ const HomeScreen = () => {
             />
             <h3>CONSULTING</h3>
             <p className='lead'>
-              Managing Safety Solutions is a premier provider of safety
-              consulting services for the construction and general industry. Our
-              goals are to assist both small and large companies in reducing
-              injuries, accidents and environmental impact, and ensuring
-              compliance. We can achieve this with a team of highly qualified
-              and experienced safety professionals. Our safety consulting team
-              can assist on a part time basis or full time capacity.
+              DeLeon Safety Solutions is a premier provider of safety consulting
+              services for the construction and general industry. Our goals are
+              to assist both small and large companies in reducing injuries,
+              accidents and environmental impact, and ensuring compliance. We
+              can achieve this with a team of{' '}
+              <strong className='bold'>
+                highly qualified and experienced safety professionals.
+              </strong>{' '}
+              Our safety consulting team can assist on a{' '}
+              <strong className='bold'>
+                part time basis or full time capacity.
+              </strong>
             </p>
             <LinkContainer to='/consulting'>
               <Button variant='primary'>LEARN MORE</Button>

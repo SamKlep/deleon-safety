@@ -12,29 +12,31 @@ const TrainingScreen = () => {
           <Col>
             <h3>SAFETY TRAINING SERVICES</h3>
             <p className='lead'>
-              Managing Safety Solutions provides comprehensive, flexible
-              solutions for all of your safety training needs. We can provide
-              training weekly, monthly or as needed and we can bring all of our
-              programs to your site for convenience and less downtime. Just as
-              important, we continually refine our training to ensure that what
-              we teach is current and understood by all participants by also
-              providing bi-lingual instructors. We also provide a full
-              complement of safety training that ranges from Basic Awareness
-              classes to OSHA 10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour, Competent
-              Person and Process Safety Management classes.
+              DeLeon Safety Solutions provides comprehensive, flexible solutions
+              for all of your safety training needs. We can provide training
+              weekly, monthly or as needed and we can bring all of our programs
+              to your site for convenience and less downtime. Just as important,
+              we continually refine our training to ensure that what we teach is
+              current and understood by all participants by also providing
+              bi-lingual instructors. We also provide a full complement of
+              safety training that ranges from Basic Awareness classes to OSHA
+              10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour, Competent Person and
+              Process Safety Management classes.
             </p>
             <p>
-              MSS is affiliated with MD4U Training Center, an accredited
+              DSS is affiliated with MD4U Training Center, an accredited
               training site for NCCER certifications. The training is available
               to individuals needing Construction Site Safety Technician 100-Hr,
               Crew Leadership, Project Supervision, Hazwoper 40-Hr and OSHA
-              30-Hr, Scaffolding, and Electrical certifications.
+              30-Hr, Scaffolding, and Electrical certifications. We offer
+              Covid-19 accomodations & meetings via Zoom with a limited space
+              available.
             </p>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h3>Managing Safety Solutions & Construction</h3>
+            <h3>DeLeon Safety Solutions</h3>
             <ul>
               A partial listing of DSS training courses include but are not
               limited to the following:
