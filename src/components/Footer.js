@@ -30,7 +30,7 @@ const Footer = () => {
               deleonsafetysol@yahoo.com
             </a>
           </Nav.Item>
-          <Nav.Item>© - 2021</Nav.Item>
+          <Nav.Item>© 2021</Nav.Item>
         </Container>
       </Nav>
     </div>
