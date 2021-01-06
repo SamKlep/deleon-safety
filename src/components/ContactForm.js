@@ -22,7 +22,7 @@ export default function ContactUs() {
     <Form className='contact-form' onSubmit={sendEmail}>
       <Form.Group>
         <Form.Control type='hidden' name='contact_number' />
-        <Form.Label>Name</Form.Label>
+        <Form.Label>Company Name</Form.Label>
         <Form.Control type='text' name='from_name' />
       </Form.Group>
       <Form.Group>
