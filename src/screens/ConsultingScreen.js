@@ -4,14 +4,14 @@ import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 const ConsultingScreen = () => {
   return (
     <div>
-      <Jumbotron className='jumbo-consult' fluid>
+      <Jumbotron className='jumbo-consult mb-5' fluid>
         <Container></Container>
       </Jumbotron>
       <Container>
         <Row>
-          <Col>
-            <h3>CONSULTING SERVICES</h3>
-            <p className='lead'>
+          <Col className='mb-5'>
+            <h1 className='mt-3'>CONSULTING SERVICES</h1>
+            <p className='lead mt-4'>
               DeLeon Safety Solutions is a premier provider of safety staff and
               consulting services for the construction and general industry. Our
               goals are to assist both small and large companies in reducing
@@ -29,9 +29,9 @@ const ConsultingScreen = () => {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className='text-center'>
           <Col>
-            <h3>STAFF</h3>
+            <h2>STAFF</h2>
             <p>Safety Representatives</p>
 
             <h6>Specializations:</h6>
@@ -42,7 +42,7 @@ const ConsultingScreen = () => {
             </ul>
 
             <hr />
-            <h3>SERVICES</h3>
+            <h2>SERVICES</h2>
             <ul>
               <li>Safety Auditing </li>
               <li>Written Safety Policy</li>

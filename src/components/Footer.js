@@ -13,17 +13,24 @@ const Footer = () => {
             </Navbar.Brand>
           </LinkContainer>
         </Container>
-        <Container className='p-2 m-2'>
+        <Container className='mb-3'>
           <Nav.Item className='p-2'>
-            Phone: <a href='tel:832-814-0645'>(832) 814 - 0645</a>
+            Phone:{' '}
+            <a href='tel:832-814-0645' target='_blank' rel='noreferrer'>
+              (832) 814 - 0645
+            </a>
           </Nav.Item>
 
-          <Nav.Item>
+          <Nav.Item className='p-2'>
             Email:{' '}
-            <a href='mailto:deleonsafetysol@yahoo.com'>
+            <a
+              href='mailto:deleonsafetysol@yahoo.com'
+              target='_blank'
+              rel='noreferrer'>
               deleonsafetysol@yahoo.com
             </a>
           </Nav.Item>
+          <Nav.Item>© - 2021</Nav.Item>
         </Container>
       </Nav>
     </div>

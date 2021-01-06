@@ -7,10 +7,10 @@ const AboutScreen = () => {
       <Jumbotron className='jumbo-about' fluid>
         <Container></Container>
       </Jumbotron>
-      <Container>
-        <Row>
+      <Container className='mt-5 mb-5'>
+        <Row className='mt-5 mb-5'>
           <Col>
-            <h3>ABOUT DELEON SAFETY SOLUTIONS</h3>
+            <h1 className='mt-5 mb-3'>ABOUT DELEON SAFETY SOLUTIONS</h1>
             <p className='lead'>
               DeLeon Safety Solutions is a professionally recognized service
               organization with Consultants that have over 10 years of combined
@@ -26,16 +26,22 @@ const AboutScreen = () => {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col>
-            <h3>DeLeon Safety Solutions & Construction</h3>
-            <ListGroup>
+        <Row className='mb-3 text-center'>
+          <Col className='text-center'>
+            <h2 className='mb-5'>DeLeon Safety Solutions & Construction</h2>
+            <ListGroup className='contact-card mx-auto'>
               <ListGroup.Item>
-                <strong>Phone: </strong> (832) 814 - 0645
+                <strong className='bold'>Phone: </strong>{' '}
+                <a href='tel:832-814-0645' target='_blank' rel='noreferrer'>
+                  (832) 814 - 0645
+                </a>
               </ListGroup.Item>
               <ListGroup.Item>
-                <strong>Email: </strong>
-                <a href='mailto:deleonsafetysol@yahoo.com'>
+                <strong className='bold'>Email: </strong>
+                <a
+                  href='mailto:deleonsafetysol@yahoo.com'
+                  target='_blank'
+                  rel='noreferrer'>
                   deleonsafetysol@yahoo.com
                 </a>
               </ListGroup.Item>

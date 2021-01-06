@@ -28,7 +28,7 @@ export default class QuoteForm extends React.Component {
         <div className='form-group'>
           <label>Address</label>
           <input type='text' name='address1' />
-
+          <br />
           <input type='text' name='address2' />
         </div>
         <div className='form-group'>

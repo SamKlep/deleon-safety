@@ -4,14 +4,14 @@ import { Jumbotron, Container, Row, Col } from 'react-bootstrap'
 const TrainingScreen = () => {
   return (
     <div>
-      <Jumbotron className='jumbo-train' fluid>
+      <Jumbotron className='jumbo-train mb-5' fluid>
         <Container></Container>
       </Jumbotron>
-      <Container>
+      <Container className='mt-5 mb-5'>
         <Row>
-          <Col>
-            <h3>SAFETY TRAINING SERVICES</h3>
-            <p className='lead'>
+          <Col className='mt-5 mb-5'>
+            <h1 className='mb-3'>SAFETY TRAINING SERVICES</h1>
+            <p className='lead mb-3'>
               DeLeon Safety Solutions provides comprehensive, flexible solutions
               for all of your safety training needs. We can provide training
               weekly, monthly or as needed and we can bring all of our programs
@@ -35,8 +35,8 @@ const TrainingScreen = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <h3>DeLeon Safety Solutions</h3>
+          <Col className='text-center'>
+            <h2>DeLeon Safety Solutions</h2>
             <ul>
               A partial listing of DSS training courses include but are not
               limited to the following:
