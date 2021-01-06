@@ -9,6 +9,7 @@ import ConsultingScreen from './screens/ConsultingScreen'
 import ConstructionScreen from './screens/ConstructionScreen'
 import EmployersScreen from './screens/EmployersScreen'
 import ContactScreen from './screens/ContactScreen'
+import ScrollUpButton from './components/ScrollUpButton'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/construction' component={ConstructionScreen} exact />
       <Route path='/employers' component={EmployersScreen} exact />
       <Route path='/contact' component={ContactScreen} exact />
+      <ScrollUpButton />
       <Footer />
     </Router>
   )

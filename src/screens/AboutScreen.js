@@ -28,7 +28,7 @@ const AboutScreen = () => {
         </Row>
         <Row className='mb-3 text-center'>
           <Col className='text-center'>
-            <h2 className='mb-5'>DeLeon Safety Solutions & Construction</h2>
+            <h2 className='mb-5'>DeLeon Safety Solutions </h2>
             <ListGroup className='contact-card mx-auto'>
               <ListGroup.Item>
                 <strong className='bold'>Phone: </strong>{' '}
