@@ -19,7 +19,7 @@ const AboutScreen = () => {
               program planning, and implementation to individuals and
               businesses. Our services are uniquely flexible to meet your needs.
             </p>
-            <p>
+            <p className='lead'>
               We are constantly working to raise the bar on our services. If you
               have any questions or concerns about your experience, please
               contact us.

@@ -23,7 +23,7 @@ const TrainingScreen = () => {
               10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour, Competent Person and
               Process Safety Management classes.
             </p>
-            <p>
+            <p className='lead'>
               DSS is affiliated with MD4U Training Center, an accredited
               training site for NCCER certifications. The training is available
               to individuals needing Construction Site Safety Technician 100-Hr,
