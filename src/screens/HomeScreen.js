@@ -11,13 +11,13 @@ const HomeScreen = () => {
       <Container>
         <Row className='m-5 text-center'>
           <Col>
-            <h2>
+            <h1 className='home-text'>
               <em>CONTACT DELEON SAFETY SOLUTIONS</em>
-            </h2>
+            </h1>
             <br />
-            <h2>
+            <h1 className='home-text'>
               <em>FOR YOUR TRAINING AND CONSULTING NEEDS</em>
-            </h2>
+            </h1>
           </Col>
         </Row>
         <Row>
@@ -29,18 +29,14 @@ const HomeScreen = () => {
             />
             <h3>TRAINING</h3>
             <p className='lead'>
-              DeLeon Safety Solutions provides comprehensive, flexible solutions
-              for all of your safety training needs. We offer bilingual services
-              and can provide training weekly, monthly or as needed. If need be,
-              we can bring all of our programs to your site for less downtime
-              and convenience. We also provide a full complement of safety
-              training for companies that range from{' '}
-              <strong className='bold'>Basic Awareness</strong> classes to{' '}
-              <strong className='bold'>
-                OSHA 10-Hour, OSHA 30-Hour, HAZWOPER 40-Hour,
-              </strong>{' '}
-              and
-              <strong className='bold'> CPR / First-Aid</strong>.{' '}
+              <em className='bold'>De Leon Safety Solutions</em> provides
+              comprehensive, flexible solutions for all of your safety training
+              needs. We offer bilingual services and can provide training
+              weekly, monthly or as needed. If need be, we can bring all of our
+              programs to your site for less downtime and convenience. We also
+              provide a full complement of safety training for companies that
+              range from <strong className='bold'>Basic Awareness, </strong>{' '}
+              <strong className='bold'>OSHA 10-Hour, OSHA 30-Hour.</strong>
             </p>
             <LinkContainer to='/training'>
               <Button variant='primary'>LEARN MORE</Button>
@@ -54,11 +50,12 @@ const HomeScreen = () => {
             />
             <h3>CONSULTING</h3>
             <p className='lead'>
-              DeLeon Safety Solutions is a premier provider of safety consulting
-              services for the construction and general industry. Our goals are
-              to assist both small and large companies in reducing injuries,
-              accidents and environmental impact, and ensuring compliance. We
-              can achieve this with a team of{' '}
+              <em className='bold'>De Leon Safety Solutions</em> is a premier
+              provider of safety consulting services for the construction and
+              general industry. Our goals are to assist both small and large
+              companies in reducing injuries, accidents and environmental
+              impact, and ensuring compliance. We can achieve this with a team
+              of{' '}
               <strong className='bold'>
                 highly qualified and experienced safety professionals.
               </strong>{' '}

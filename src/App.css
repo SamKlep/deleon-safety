@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 133px;
+  height: 133px;
 }
 
 ul {
@@ -12,7 +13,7 @@ a:link {
 }
 
 .jumbo-home {
-  background-image: url('https://cdn.pixabay.com/photo/2019/06/14/21/43/hard-hat-4274431_1280.jpg');
+  background-image: url('./img/hard-hat.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,4 +78,8 @@ a:link {
 
 .const-image {
   width: 400px;
+}
+
+.home-text {
+  font-family: 'Roboto', sans-serif;
 }
