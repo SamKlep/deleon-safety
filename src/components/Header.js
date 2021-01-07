@@ -29,9 +29,6 @@ const Header = () => {
             <LinkContainer to='/consulting'>
               <Nav.Link>Consulting</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/construction'>
-              <Nav.Link>Contruction</Nav.Link>
-            </LinkContainer>
             <LinkContainer to='/employers'>
               <Nav.Link>Employers</Nav.Link>
             </LinkContainer>

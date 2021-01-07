@@ -15,18 +15,11 @@ const Footer = () => {
         </Container>
         <Container className='mb-3'>
           <Nav.Item className='p-2'>
-            Phone:{' '}
-            <a href='tel:832-814-0645' target='_blank' rel='noreferrer'>
-              (832) 814 - 0645
-            </a>
-          </Nav.Item>
-
-          <Nav.Item className='p-2'>
-            Email:{' '}
             <a
               href='mailto:deleonsafetysol@yahoo.com'
               target='_blank'
-              rel='noreferrer'>
+              rel='noreferrer'
+              className='h5'>
               deleonsafetysol@yahoo.com
             </a>
           </Nav.Item>

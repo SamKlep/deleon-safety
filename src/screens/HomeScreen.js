@@ -53,15 +53,11 @@ const HomeScreen = () => {
               <em className='bold'>De Leon Safety Solutions</em> is a premier
               provider of safety consulting services for the construction and
               general industry. Our goals are to assist both small and large
-              companies in reducing injuries, accidents and environmental
-              impact, and ensuring compliance. We can achieve this with a team
-              of{' '}
+              companies in reducing injuries, accidents, and ensuring
+              compliance. We can achieve this with a team of{' '}
               <strong className='bold'>
-                highly qualified and experienced safety professionals.
-              </strong>{' '}
-              Our safety consulting team can assist on a{' '}
-              <strong className='bold'>
-                part time basis or full time capacity.
+                highly qualified and experienced safety professionals, which
+                includes bilingual professionals.
               </strong>
             </p>
             <LinkContainer to='/consulting'>

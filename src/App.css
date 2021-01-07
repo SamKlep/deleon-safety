@@ -83,3 +83,8 @@ a:link {
 .home-text {
   font-family: 'Roboto', sans-serif;
 }
+
+.training-list {
+  width: 300px;
+  font-size: 1.4em;
+}
