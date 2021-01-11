@@ -1,5 +1,12 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col, ListGroup } from 'react-bootstrap'
+import {
+  Jumbotron,
+  Container,
+  Row,
+  Col,
+  ListGroup,
+  Image,
+} from 'react-bootstrap'
 
 const TrainingScreen = () => {
   return (
@@ -89,6 +96,26 @@ const TrainingScreen = () => {
               </ListGroup.Item>
               <ListGroup.Item>Incident & Accident Investigation</ListGroup.Item>
             </ListGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Image src='/img/slip.png' fluid />
+          </Col>
+          <Col className='text-center'>
+            <Image
+              className='safety-image text-center'
+              src='/img/hazardous.jpg'
+              fluid
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Image src='/img/danger.png' fluid />
+          </Col>
+          <Col>
+            <Image className='ladder-image' src='/img/falls.png' fluid />
           </Col>
         </Row>
       </Container>
