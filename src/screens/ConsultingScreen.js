@@ -20,12 +20,11 @@ const ConsultingScreen = () => {
               safety professionals. Our safety contract and consulting team can
               assist you on a variety of services. Regardless of the size of
               your operation, <em className='bold'>De Leon Safety Solutions</em>{' '}
-              can provide professional consulting services
-              (including bi-lingual professionals) to your company at a
-              frequency that meets your needs and improves the overall safety
-              and risk management of your operations. Some examples of the
-              effective and flexible services we provide include, but are not
-              limited to the following:
+              can provide professional consulting services (including bi-lingual
+              professionals) to your company at a frequency that meets your
+              needs and improves the overall safety and risk management of your
+              operations. Some examples of the effective and flexible services
+              we provide include, but are not limited to the following:
             </p>
           </Col>
         </Row>

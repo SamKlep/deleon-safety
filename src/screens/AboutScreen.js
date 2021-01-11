@@ -15,10 +15,10 @@ const AboutScreen = () => {
               <em className='bold'>De Leon Safety Solutions</em> is a
               professionally recognized service organization with Consultants
               that have over 20 years of combined safety experience in the
-              industrial, construction, and petro-chemical industries. We
-              provide workplace safety consulting, program planning, and
-              implementation to individuals and businesses. Our services are
-              uniquely flexible to meet your needs.
+              industrial and construction industries. We provide workplace
+              safety consulting, program planning, and implementation to
+              individuals and businesses. Our services are uniquely flexible to
+              meet your needs.
             </p>
             <p className='lead'>
               We are constantly working to raise the bar on our services. If you
@@ -29,7 +29,7 @@ const AboutScreen = () => {
         </Row>
         <Row className='mb-3 text-center'>
           <Col className='text-center'>
-            <h2 className='mb-5'>DeLeon Safety Solutions </h2>
+            <h2 className='mb-5'>De Leon Safety Solutions </h2>
             <ListGroup className='training-list mx-auto'>
               <ListGroup.Item>
                 <a

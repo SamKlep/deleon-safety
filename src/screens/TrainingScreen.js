@@ -14,7 +14,7 @@ const TrainingScreen = () => {
             <p className='lead mb-3'>
               <em className='bold'>De Leon Safety Solutions</em> provides
               comprehensive, flexible solutions for all of your safety training
-              needs. We can provide training weekly, monthly or as needed and we
+              needs. We can provide training weekly, monthly or as needed. We
               can bring all of our programs to your site for convenience and
               less downtime. Just as important, we continually refine our
               training to ensure that what we teach is current and understood by
