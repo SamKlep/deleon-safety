@@ -1,16 +1,54 @@
 import React from 'react'
-import { Jumbotron, Container, Row, Col, ListGroup } from 'react-bootstrap'
+import { Container, Row, Col, ListGroup, Carousel } from 'react-bootstrap'
 
 const AboutScreen = () => {
   return (
     <div>
-      <Jumbotron className='jumbo-about' fluid>
-        <Container></Container>
-      </Jumbotron>
-      <Container className='mt-5 mb-5'>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src='/img/2-men.jpg'
+            alt='Safety always first'
+          />
+          <Carousel.Caption>
+            <h3 className='text-white'>Safety always first</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-100' src='/img/cpr.jpg' alt='CPR Trained' />
+
+          <Carousel.Caption>
+            <h3 className='text-white'>CPR Trained</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src='/img/report.png'
+            alt='Professional & Trustworthy'
+          />
+
+          <Carousel.Caption>
+            <h3>Professional & Trustworthy</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src='/img/safety.jpg'
+            alt='OSHA Certified'
+          />
+
+          <Carousel.Caption>
+            <h3 className='text-white'>OSHA Certified</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <Container className=' mb-5'>
         <Row className='mt-5 mb-5'>
           <Col>
-            <h1 className='mt-5 mb-3'>ABOUT DELEON SAFETY SOLUTIONS</h1>
+            <h1 className=' mb-3'>ABOUT DELEON SAFETY SOLUTIONS</h1>
             <p className='lead'>
               <em className='bold'>De Leon Safety Solutions</em> is a
               professionally recognized service organization with Consultants

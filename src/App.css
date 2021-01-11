@@ -88,3 +88,42 @@ a:link {
   width: 300px;
   font-size: 1.4em;
 }
+
+.carousel {
+  width: 900px;
+  height: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel img {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 800px) {
+  .carousel {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+@media (max-width: 700px) {
+  .carousel {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
