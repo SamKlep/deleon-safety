@@ -1,19 +1,27 @@
 import React from 'react'
-import {
-  Jumbotron,
-  Container,
-  Row,
-  Col,
-  ListGroup,
-  Image,
-} from 'react-bootstrap'
+import { Container, Row, Col, ListGroup, Image } from 'react-bootstrap'
 
 const TrainingScreen = () => {
   return (
     <div>
-      <Jumbotron className='jumbo-train mb-5' fluid>
-        <Container></Container>
-      </Jumbotron>
+      <Container className='mt-5'>
+        <Row>
+          <Col>
+            <Image src='/img/slip.png' fluid />
+          </Col>
+          <Col>
+            <Image src='/img/hazardous.jpg' fluid />
+          </Col>
+
+          <Col>
+            <Image className='danger-img' src='/img/danger.png' fluid />
+          </Col>
+          <Col>
+            <Image src='/img/falls.png' fluid />
+          </Col>
+        </Row>
+      </Container>
+
       <Container className='mt-5 mb-5'>
         <Row>
           <Col className='mt-5 mb-5'>
@@ -96,26 +104,6 @@ const TrainingScreen = () => {
               </ListGroup.Item>
               <ListGroup.Item>Incident & Accident Investigation</ListGroup.Item>
             </ListGroup>
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image src='/img/slip.png' fluid />
-          </Col>
-          <Col className='text-center'>
-            <Image
-              className='safety-image text-center'
-              src='/img/hazardous.jpg'
-              fluid
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Image src='/img/danger.png' fluid />
-          </Col>
-          <Col>
-            <Image className='ladder-image' src='/img/falls.png' fluid />
           </Col>
         </Row>
       </Container>

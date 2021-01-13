@@ -96,6 +96,10 @@ a:link {
   object-fit: cover;
 }
 
+.danger-img {
+  height: 200px;
+}
+
 .safety-image {
   padding-top: 90px;
 }
@@ -114,6 +118,10 @@ a:link {
   .ladder-image {
     padding-top: 45px;
   }
+
+  .danger-img {
+    height: 150px;
+  }
 }
 @media (max-width: 700px) {
   .carousel {
@@ -128,6 +136,9 @@ a:link {
   }
   .ladder-image {
     padding-top: 45px;
+  }
+  .danger-img {
+    height: 100px;
   }
 }
 
