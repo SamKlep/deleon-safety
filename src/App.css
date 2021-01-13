@@ -89,17 +89,11 @@ a:link {
   font-size: 1.4em;
 }
 
-.carousel {
-  width: 900px;
-  height: 500px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.carousel img {
-  margin: auto;
-  width: 400px;
-  height: 400px;
+/* About */
+.about-image {
+  width: 300px; /* You can set the dimensions to whatever you want */
+  height: 200px;
+  object-fit: cover;
 }
 
 .safety-image {
