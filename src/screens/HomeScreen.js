@@ -65,6 +65,7 @@ const HomeScreen = () => {
             </LinkContainer>
           </Col>
         </Row>
+        <div id='google_translate_element' className='my-4'></div>
       </Container>
     </div>
   )
