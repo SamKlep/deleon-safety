@@ -14,18 +14,26 @@ function fun() {
 export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault()
-
-    emailjs
-      .sendForm('gmail', 'contact_form', e.target, 'user_55YYmU3urijwaiV2s1l3i')
-      .then(
-        (result) => {
-          console.log(result.text)
-        },
-        (error) => {
-          alert(error.text)
-        }
-      )
-    fun()
+    if (e.target.user_email.value === '' || e.target.from_name.value === '') {
+      return alert('Form cannot be empty!')
+    } else {
+      emailjs
+        .sendForm(
+          'gmail',
+          'contact_form',
+          e.target,
+          'user_55YYmU3urijwaiV2s1l3i'
+        )
+        .then(
+          (result) => {
+            alert('Message sent!')
+          },
+          (error) => {
+            alert(error.text)
+          }
+        )
+      fun()
+    }
   }
 
   return (
